@@ -12,6 +12,7 @@ using PdfSharp;
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 using FilmCalc;
+using System.Configuration;
 
 namespace MingoPackaging
 {
@@ -643,8 +644,8 @@ namespace MingoPackaging
                 barname = barname + "_";
             }
             string filename = companyname + barname + DateTime.Now.ToString("yyyy-M-dd_HH-mm-ss") + ".pdf";
-            string approver1 = "Rodolfo Mayren";
-            string approver2 = "David Howell";
+            string approver1 = ConfigurationManager.AppSettings.Get("Approver1");
+            string approver2 = ConfigurationManager.AppSettings.Get("Approver2");
             double bleed = 0.125;
 
             double ppi = 72;
@@ -808,10 +809,7 @@ namespace MingoPackaging
             //finseal line
             gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 3.4) * marginppi), (10.25 * marginppi), ((topmargin + 3.4) * marginppi));
             //endseal line
-            gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 4.5) * marginppi), (10.25 * marginppi), ((topmargin + 4.5) * marginppi));
-            //approver 1 line
-            gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 5.5) * marginppi), (10.25 * marginppi), ((topmargin + 5.5) * marginppi));
-            //approver2 line
+
             //************************************
 
 
@@ -886,14 +884,20 @@ namespace MingoPackaging
             //gfx.DrawString("CL&D#:   " + CLDtoolnumber, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 1.0) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
             //gfx.DrawString("CL&D#:   " + CLDtoolnumber, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 1.3) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
             //CL&D toolnumber label
+           
+            // Approver 1
             gfx.DrawString("Approver: " + approver1, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 4) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
-            //approver 1 name label
-            gfx.DrawString("Approver: " + approver2, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 5) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
-            //approver 2 name label
             gfx.DrawString("Date:    " + today.ToString("d"), font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 4.55) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
-            //date 1 label
-            gfx.DrawString("Date:    " + today.ToString("d"), font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 5.55) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
-            //date 2 label
+            gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 4.5) * marginppi), (10.25 * marginppi), ((topmargin + 4.5) * marginppi));
+
+            // Approver 2
+            if (!string.IsNullOrEmpty(approver2))
+            {
+                gfx.DrawString("Approver: " + approver2, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 5) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
+                gfx.DrawString("Date:    " + today.ToString("d"), font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 5.55) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
+                gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 5.5) * marginppi), (10.25 * marginppi), ((topmargin + 5.5) * marginppi));
+            }
+
             gfx.DrawString("Note: The measurements listed are accurate.", font3, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 6.5) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
             //warning label 1
             gfx.DrawString("Drawing may be scaled down.", font3, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 6.75) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
