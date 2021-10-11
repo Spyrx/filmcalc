@@ -14,6 +14,7 @@ using PdfSharp;
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 using PdfSharp.Charting;
+using System.Configuration;
 
 namespace MingoPackaging
 {
@@ -52,12 +53,15 @@ namespace MingoPackaging
             double sidemargin = 1;
             double topmargin = 0.75;
             string filename = companyname + "_" + barname + "_" + flavor + "_" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".pdf";
-            string approver1 = "Fred Brayton";
+            string approver1 = "";
             string approver2 = "";
             double bleed = 0.125;
             
             double ppi = 72;
             double marginppi = 72;
+
+            approver1 = ConfigurationManager.AppSettings.Get("Approver1");
+            approver2 = ConfigurationManager.AppSettings.Get("Approver2");
 
             PdfDocument document = new PdfDocument();
             PdfPage page = document.AddPage();
