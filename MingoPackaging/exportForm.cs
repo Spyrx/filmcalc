@@ -53,7 +53,7 @@ namespace MingoPackaging
             double topmargin = 0.75;
             string filename = companyname + "_" + barname + "_" + flavor + "_" + DateTime.Now.ToString("yyyy-dd-M--HH-mm-ss") + ".pdf";
             string approver1 = "Fred Brayton";
-            string approver2 = "Rodolfo Mayren";
+            string approver2 = "";
             double bleed = 0.125;
             
             double ppi = 72;
