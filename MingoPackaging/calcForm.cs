@@ -12,6 +12,7 @@ using PdfSharp;
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 using FilmCalc;
+using System.Configuration;
 
 namespace MingoPackaging
 {
@@ -643,8 +644,8 @@ namespace MingoPackaging
                 barname = barname + "_";
             }
             string filename = companyname + barname + DateTime.Now.ToString("yyyy-M-dd_HH-mm-ss") + ".pdf";
-            string approver1 = "Rodolfo Mayren";
-            string approver2 = "David Howell";
+            string approver1 = ConfigurationManager.AppSettings.Get("Approver1");
+            string approver2 = ConfigurationManager.AppSettings.Get("Approver2");
             double bleed = 0.125;
 
             double ppi = 72;
