@@ -1,0 +1,47 @@
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\FilmCalc.exe.config
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\FilmCalc.exe
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\FilmCalc.pdb
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\MigraDoc.DocumentObjectModel.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\MigraDoc.Rendering.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\MigraDoc.RtfRendering.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\PdfSharp.Charting.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\PdfSharp.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\de\MigraDoc.DocumentObjectModel.resources.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\de\MigraDoc.Rendering.resources.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\de\MigraDoc.RtfRendering.resources.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\de\PdfSharp.resources.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\bin\Release\de\PdfSharp.Charting.resources.dll
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.csprojResolveAssemblyReference.cache
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\MingoPackaging.calcForm.resources
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\MingoPackaging.exportForm.resources
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.Properties.Resources.resources
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.csproj.GenerateResource.Cache
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.exe
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.pdb
+U:\Programs\Mingo Packaging\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.masterCase.resources
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\bin\Release\FilmCalc.exe.config
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\bin\Release\FilmCalc.exe
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\bin\Release\FilmCalc.pdb
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\MingoPackaging.calcForm.resources
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\MingoPackaging.exportForm.resources
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.masterCase.resources
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.Properties.Resources.resources
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.csproj.GenerateResource.cache
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.csproj.CoreCompileInputs.cache
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.csproj.CopyComplete
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.exe
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.pdb
+U:\Programs\PackagingCalculator\MingoPackaging\MingoPackaging\obj\Release\FilmCalc.csprojAssemblyReference.cache
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\bin\Release\FilmCalc.exe.config
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\bin\Release\FilmCalc.exe
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\bin\Release\FilmCalc.pdb
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\MingoPackaging.calcForm.resources
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\MingoPackaging.exportForm.resources
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.masterCase.resources
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.Properties.Resources.resources
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.csproj.GenerateResource.cache
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.csproj.CoreCompileInputs.cache
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.csproj.CopyComplete
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.exe
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.pdb
+S:\IT Share\Projects\Packaging Calculator\Program\MingoPackaging\obj\Release\FilmCalc.csprojAssemblyReference.cache
